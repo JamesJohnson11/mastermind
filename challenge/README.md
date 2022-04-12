@@ -74,8 +74,8 @@ There is a constants file that contains the bulk of the constants that are used 
 numbers from a total of 8 different numbers (0-7). The amount of digits in the number will be based on the difficulty selection of the player.
 
     - Easy (E) --> 4 digits
-    - Medium (M) --> 6 digits
-    - Hard (H) --> 8 digits
+    - Medium (M) --> 5 digits
+    - Hard (H) --> 6 digits
 
 2. The player will have 10 attempts to guess the number combinations.
 
