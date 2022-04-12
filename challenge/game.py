@@ -93,9 +93,10 @@ class Game:
     def generate_random_number(level):
         '''Generates and returns random number from api based on difficulty level chosen by player'''
 
-        api_url = "https://www.random.org/integers/?num={}&min=0&max=7&col=1&base=10&format=plain&rnd=new".format(level)
+        api_url = RAND_NUM_API_URL.format(level)
         response = requests.get(api_url).text.replace("\n", "")
-        print(response)
+
+        #print(response) - FOR DEMO
         return response
 
 

@@ -1,3 +1,6 @@
+### RANDOM NUMBER API CONSTANT ###
+RAND_NUM_API_URL = "https://www.random.org/integers/?num={}&min=0&max=7&col=1&base=10&format=plain&rnd=new"
+
 ### DATABASE API CONSTANTS ###
 DB_API_URL = "http://localhost:5000/player-scores"
 HIGH_SCORE_ENDPOINT_URL = "http://localhost:5000/high-scores"
